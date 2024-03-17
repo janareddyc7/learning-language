@@ -1,4 +1,5 @@
 export const POINTS_TO_REFILL = 10;
+export const FREEZE = 200
 
 export const quests = [
   {

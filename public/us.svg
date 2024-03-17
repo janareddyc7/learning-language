@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Red and white stripes with gradient -->
+  <defs>
+    <linearGradient id="stripeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B22234;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="60" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="60" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="120" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="180" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="240" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="300" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="360" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="420" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="480" fill="url(#stripeGradient)"/>
+  <rect width="900" height="60" y="540" fill="url(#stripeGradient)"/>
+
+  <!-- Blue rectangle (union) with gradient -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3C3B6E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000080;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="300" height="210" fill="url(#blueGradient)"/>
+
+  <!-- Stars with shadow effect -->
+  <g fill="#FFFFFF" filter="url(#shadow)">
+    <!-- Star definitions -->
+    <circle cx="45" cy="30" r="10"/>
+    <circle cx="135" cy="30" r="10"/>
+    <circle cx="225" cy="30" r="10"/>
+    <circle cx="315" cy="30" r="10"/>
+    <circle cx="405" cy="30" r="10"/>
+    <circle cx="90" cy="75" r="10"/>
+    <circle cx="180" cy="75" r="10"/>
+    <circle cx="270" cy="75" r="10"/>
+    <circle cx="360" cy="75" r="10"/>
+    <circle cx="45" cy="120" r="10"/>
+    <circle cx="135" cy="120" r="10"/>
+    <circle cx="225" cy="120" r="10"/>
+    <circle cx="315" cy="120" r="10"/>
+    <circle cx="405" cy="120" r="10"/>
+    <circle cx="90" cy="165" r="10"/>
+    <circle cx="180" cy="165" r="10"/>
+    <circle cx="270" cy="165" r="10"/>
+    <circle cx="360" cy="165" r="10"/>
+    <circle cx="45" cy="210" r="10"/>
+    <circle cx="135" cy="210" r="10"/>
+    <circle cx="225" cy="210" r="10"/>
+    <circle cx="315" cy="210" r="10"/>
+    <circle cx="405" cy="210" r="10"/>
+  </g>
+
+  <!-- Shadow filter definition -->
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <!-- Head -->
+  <path d="M12 2c3.866 0 7 3.134 7 7 0 3.86-3.134 7-7 7-3.86 0-7-3.14-7-7 0-3.866 3.14-7 7-7z" />
+  <!-- Body -->
+  <path d="M5 20c-.766-3.534 3.864-6 7-6s7.766 2.466 7 6" />
+</svg>

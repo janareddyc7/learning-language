@@ -48,16 +48,16 @@ const LearderboardPage = async () => {
       <FeedWrapper>
         <div className="w-full flex flex-col items-center">
           <Image
-            src="/leaderboard.svg"
+            src="/2eaderboard.svg"
             alt="Leaderboard"
-            height={90}
-            width={90}
+            height={300}
+            width={300}
           />
           <h1 className="text-center font-bold text-neutral-800 text-2xl my-6">
-            Leaderboard
+          Unlock Leaderboards!
           </h1>
           <p className="text-muted-foreground text-center text-lg mb-6">
-            See where you stand among other learners in the community.
+          Complete 10 more lessons to start competing
           </p>
           <Separator className="mb-4 h-0.5 rounded-full" />
           {leaderboard.map((userProgress, index) => (

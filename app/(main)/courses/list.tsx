@@ -6,8 +6,9 @@ import { useRouter } from "next/navigation";
 
 import { courses, userProgress } from "@/db/schema";
 import { upsertUserProgress } from "@/actions/user-progress";
-
 import { Card } from "./card";
+
+
 
 type Props = {
   courses: typeof courses.$inferSelect[];
